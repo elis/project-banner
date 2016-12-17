@@ -1,0 +1,31 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+project-banner {
+  height: 31px;
+  background: @app-background-color;
+  padding: 4px 8px;
+  box-sizing: border-box;
+  color: #369;
+  font-weight: bold;
+  max-height: 31px;
+  display: flex;
+  align-items: center;
+  > :not(:last-child) {
+    margin-right: 8px;
+  }
+  .type-svg {
+    @size: 15px;
+    display: flex;
+    svg {
+      width: auto;
+      height: auto;
+      // max-height: 100%;
+      //
+      height: 31px;
+    }
+  }
+}
