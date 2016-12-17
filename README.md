@@ -134,3 +134,4 @@ More features that would be nice to have:
 - Support for nested bannerfiles (for nested projects, node_modules, etc')
 - Proper tests...
 - User interface? nah... right?
+- Reactive banner - enable actions to be initiated from the banner - for example starting/stopping dependency servers and services
