@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "type": "text",
+      "content": "",
+      "classList": ["project-flag"]
+    },
+    {
+      "type": "svg",
+      "path": "static/html5.svg"
+    },
+    "HTML5 Project",
+    {
+      "type": "icon",
+      "icon": "device-desktop",
+      "classList": ["project-class"]
+    },
+    {
+      "type": "text",
+      "content": "Project Banner Example #1",
+      "classList": ["project-id"]
+    }
+  ],
+  "styles": [
+    ".project-flag::after { content: ''; margin-right: 8px; border-left: 6px solid #00897B; border-right: 6px solid #00695C; border-bottom: 5px solid transparent; min-height: 26px; display: flex; }",
+    ".type-svg svg { background: transparent; max-height: 20px; }",
+    ".type-svg svg circle { fill: #00897B; }",
+    ".type-text { color: #555; }",
+    ".project-id { text-transform: uppercase; }",
+    ".project-class { color: #00897B; }"
+  ]
+}

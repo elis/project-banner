@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "type": "text",
+      "content": "",
+      "classList": ["project-flag"]
+    },
+    {
+      "type": "svg",
+      "path": "static/business-card.svg"
+    },
+    {
+      "type": "text",
+      "content": "<h1>PROJECT BANNER</h1><h2>v0.1.0</h2>",
+      "classList": ["project-title"]
+    },
+    {
+      "type": "icon",
+      "icon": "device-desktop",
+      "classList": ["project-class"]
+    },
+    {
+      "type": "text",
+      "content": "Local Repository",
+      "classList": ["project-id"]
+    },
+    {
+      "type": "text",
+      "content": "<a href='https://github.com/elis/project-banner'><h3>Created by</h3><h4>Eli Sklar</h4></a>",
+      "classList": ["project-team"]
+    }
+
+  ],
+  "styles": [
+    ".project-flag::after { content: ''; margin-right: 8px; margin-left: 6px; border-left: 6px solid #2196F3; border-right: 6px solid #1976D2; border-bottom: 5px solid transparent; min-height: 25px; display: flex; }",
+    ".type-svg svg { background: transparent; max-height: 26px; }",
+    ".type-svg svg circle { fill: #2196F3; }",
+    ".type-text { color: #555; }",
+    ".project-id { text-transform: uppercase; opacity: 0.75; }",
+    ".project-class { color: #2196F3; opacity: 0.75; }",
+    ".project-title[class] { position: relative; font-size: 6.8px; margin-right: 20px; padding-right: 20px; }",
+    ".project-title h1, .project-title h2 { margin: 0; }",
+    ".project-title h1 { }",
+    ".project-title h2 { display: flex; align-items: center; }",
+    ".project-title h2::after { content: ''; margin-left: 4px; border-bottom: 2px solid #1976D2; display: flex; flex: 1 1 auto; margin-top: 3px; opacity: 0.25; }",
+    ".project-team { margin-left: auto; font-size: 6.5px; }",
+    ".project-team { transform: scale(0.6, 0.6); transition: 120ms all ease-in-out; transition-delay: 3s; }",
+    ".project-team:hover { transform: scale(1, 1);   }",
+    ".project-team a > * { margin: 0; transition: all 180ms ease-in-out; }",
+    ".project-team h4 { font-size: 2.2em; font-weight: bold; }",
+    ".project-team a:hover, .project-team a:hover * { text-decoration: none; }",
+    ".project-team :hover h4 { color: #2196F3; }"
+  ]
+}
