@@ -1,16 +1,17 @@
 {
   "name": "project-banner",
   "main": "./lib/project-banner",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Adds a nice simple banner to your project",
   "keywords": [
-    "banner", "project", "identification"
+    "banner",
+    "project",
+    "identification"
   ],
   "repository": "https://github.com/elis/project-banner.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
