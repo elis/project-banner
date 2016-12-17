@@ -12,6 +12,8 @@ The answer is a simple and unique banner at the bottom of the layout that you ca
 
 This package is my first foray into atom custom packages and might not  be very optimized. It's also a product of a couple of nights of passion rather than a methodical development and rigorous testing. It's fragile. It's very basic in its features at the moment as well.
 
+[Project Banner](https://atom.io/packages/project-banner) on [atom.io](https://atom.io/)
+
 ## Settings
 
 Project Banner supports two ways of configuring it in a given project - using the ever-so-popular `package.json` file with a `projectBanner` property containing your banner configuration, or using the `.bannerfile.json` that should contain an object with the banner configuration.
