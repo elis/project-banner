@@ -33,7 +33,22 @@
     ".type-svg svg circle { fill: #2196F3; }",
     ".project-id { font-family: monospace; }",
     ".project-class { color: #2196F3; }",
-
+    ".type-text { color: #333; }",
+    ".project-team { margin-left: auto; font-size: 6.5px; }",
+    ".project-team { transform: scale(0.6, 0.6); transition: 120ms all ease-in-out; transition-delay: 3s; }",
+    ".project-team:hover { transform: scale(1, 1);   }",
+    ".project-team a > * { margin: 0; transition: all 180ms ease-in-out; }",
+    ".project-team h4 { font-size: 2.2em; font-weight: bold; }",
+    ".project-team a:hover, .project-team a:hover * { text-decoration: none; }",
+    ".project-team :hover h4 { color: #2196F3; }"
+  ],
+  "darkStyles": [
+    ".project-flag::after { content: ''; margin-right: 8px; border-left: 6px solid #2196F3; border-right: 6px solid #1976D2; border-bottom: 5px solid transparent; min-height: 23px; display: flex; }",
+    ".type-svg svg { background: transparent; max-height: 34px; }",
+    ".type-svg svg circle { fill: #2196F3; }",
+    ".project-id { font-family: monospace; }",
+    ".project-class { color: #2196F3; }",
+    ".type-text { color: #D3D9DE; }",
     ".project-team { margin-left: auto; font-size: 6.5px; }",
     ".project-team { transform: scale(0.6, 0.6); transition: 120ms all ease-in-out; transition-delay: 3s; }",
     ".project-team:hover { transform: scale(1, 1);   }",
