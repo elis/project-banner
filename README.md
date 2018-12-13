@@ -16,7 +16,20 @@ This package is my first foray into atom custom packages and might not  be very 
 
 ## Settings
 
-Project Banner supports two ways of configuring it in a given project - using the ever-so-popular `package.json` file with a `projectBanner` property containing your banner configuration, or using the `.bannerfile.json` that should contain an object with the banner configuration.
+### `package.json`
+
+`configPath` - provide Project Banner with a config path (relative to the project path) of the banner files
+
+### `.bannerfile.json` or `.bannerfile.cson`
+
+In project path (or relative as configured in `configPath`) these files will be loaded and processed according to the settings.
+
+### `.banerfile.js` or `.bannerfile.coffee`
+
+Same as `json` or `cson` but exected to have `exports = {...}` as the resulting output of the file.
+Content will be merged with content from static file.
+
+## Setting Options
 
 Examples for a `.bannerfile.json` flavor can be seen in this project.
 
@@ -68,10 +81,13 @@ Example:
     }
   ],
   "styles": [
-    ".code-icon { color: green; }"
+    ".code-icon { color: green; }",
+    ".dark .code-icon { color: blue; }"
   ]
 }
 ```
+
+Use `.dark` classname for styles that only need to be applied for dark themes (if project banner identifies the theme as dark).
 
 
 
