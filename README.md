@@ -50,7 +50,8 @@ String to indicate type of element.
 Currently supported types are:
 
 - `text` - simple text display
-  - requires `content` property
+  - requires `content` property for plaintext - will use template literal syntax if executions for Project Banner project is allowed.
+  - requires `getContent` property for dynamic content - requires execution rights - pass in a function name or function string
 - `icon` - display an icon from the built in atom iconography pack
   - requires `icon` property
 - `svg` - display an svg from the local project
