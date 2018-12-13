@@ -2,6 +2,10 @@
 
 With [Project Banner](https://github.com/elis/project-banner) you can easily and simply add informative banners to your projects.
 
+## New in version 0.3! Executables! CSON! Coffee!
+
+In the latest version there is now support for CSON bannerfiles, js, and even coffee script files!
+
 ![Example](http://image.prntscr.com/image/bbd21c2ac1da40d1a09291b453d11ec8.png)
 
 If you're like me, you are working on many projects, and sometimes with similar names, similar file structure, and other confusing similarities that sometimes make me edit the wrong file.
@@ -55,6 +59,14 @@ Currently supported types are:
 #### `classList`
 
 Array of strings to be applied to the element as its class-names. Useful to style later.
+
+#### `onClick`
+
+Executable function - either pass in an expected function (like `state.actions.doSomething`) or a function string (e.g. `"event => alert('Fired!')"`).
+
+#### `events`
+
+Array of events to attach to the element, pass in executable function - either pass in an expected function (like `state.actions.doSomething`) or a function string (e.g. `"event => alert('Fired!')"`).
 
 ## `styles`
 

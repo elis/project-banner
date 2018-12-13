@@ -29,7 +29,8 @@ items: [
     classList: ["project-version", 'btn'],
     onClick: 'state.actions.publish',
     events:
-      mouseenter: 'e => console.log("what is state?", state)'
+      mouseenter: "e => element.classList.add('btn-primary')"
+      mouseleave: "e => element.classList.remove('btn-primary')"
   }
   {
     type: "text"
