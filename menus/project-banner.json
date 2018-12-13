@@ -1,18 +1,10 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle project-banner",
-        "command": "project-banner:toggle"
-      }
-    ]
-  },
   "menu": [
     {
       "label": "Packages",
       "submenu": [
         {
-          "label": "project-banner",
+          "label": "Project Banner",
           "submenu": [
             {
               "label": "Toggle",
