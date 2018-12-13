@@ -26,7 +26,8 @@ items: [
   {
     type: "text"
     content: "v${state['package.json'].version}"
-    classList: ["project-version"]
+    classList: ["project-version"],
+    onClick: 'state.actions.publish',
     events:
       mouseenter: 'e => console.log("what is state?", state)'
   }
